@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+}
+
+#navbar {
+    background: #242424;
+    padding: 20px 4px;
+    /* color: white; */
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+#navbar li {
+    list-style: none;
+    padding: 3px 10px;
+}
+
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+    transition: all 0.5s ease-in;
+}
+
+#navbar li a:hover{
+    background: yellowgreen;
+    outline: none;
+
+}
+
+#introSection {
+    height: 400px;
+    background: center / cover no-repeat url('/static/dance.jpg');
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    flex-direction: column;
+}
+
+#introSection div.bgBlack  {
+    background: rgba(58, 58, 57, 0.753);
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#introSection div.small {
+    font-size: 25px;
+}
+
+div.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 150px;
+}
+
+
+#sponsorsSection {
+    height: 250px;
+    background: rgb(35, 35, 36);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#sponsorsSection h2 {
+    border-bottom: 2px solid white;
+    width: 20%;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+div#sponsors {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    line-height: 100px;
+}
+
+div#sponsors div {
+    background: #fcf5ff;
+    flex-grow: 1;
+    margin: 10px;
+    color: #b700ff;
+    border-radius: 7px;
+}
+#footer {
+    height: 50px;
+    background: rgb(24, 24, 24);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.container {
+    height: 80vh;
+    text-align: center;
+}
